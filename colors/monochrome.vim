@@ -100,7 +100,6 @@ let s:reversedGroups = [
   \'SpellRare',
   \'SpellLocal',
   \'Pmenu',
-  \'PmenuSel',
   \'PmenuSbar',
   \'PmenuThumb',
   \'TabLine',
