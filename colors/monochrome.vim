@@ -89,10 +89,6 @@ let s:reversedGroups = [
   \'WildMenu',
   \'Folded',
   \'FoldColumn',
-  \'DiffAdd',
-  \'DiffChange',
-  \'DiffDelete',
-  \'DiffText',
   \'SignColumn',
   \'Conceal',
   \'SpellBad',
@@ -127,3 +123,8 @@ endfor
 
 hi Comment term=bold cterm=bold gui=bold
 hi Underlined term=underline cterm=underline gui=underline
+
+hi DiffAdd ctermfg=Green
+hi DiffDelete ctermfg=Red
+hi link diffRemoved DiffDelete
+hi link diffAdded DiffAdd
