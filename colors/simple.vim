@@ -2,7 +2,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "monochrome"
+let g:colors_name = "simple"
 
 function! s:ResetColorGroup(colorGroup)
   execute 'hi ' . a:colorGroup . ' term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=fg guibg=bg guisp=NONE'
