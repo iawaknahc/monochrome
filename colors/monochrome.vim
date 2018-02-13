@@ -124,3 +124,6 @@ endfor
 for g in s:reversedGroups
   call s:ReverseColorGroup(g)
 endfor
+
+hi Comment term=bold cterm=bold gui=bold
+hi Underlined term=underline cterm=underline gui=underline
