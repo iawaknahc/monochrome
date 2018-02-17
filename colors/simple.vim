@@ -86,7 +86,6 @@ let s:reversedGroups = [
   \'StatusLineNC',
   \'VertSplit',
   \'Visual',
-  \'WildMenu',
   \'Folded',
   \'FoldColumn',
   \'SignColumn',
