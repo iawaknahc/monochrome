@@ -122,6 +122,8 @@ endfor
 
 hi Comment term=bold cterm=bold gui=bold
 hi Underlined term=underline cterm=underline gui=underline
+hi PmenuSel term=reverse,bold cterm=reverse,bold gui=reverse,bold
+hi WildMenu term=reverse,bold cterm=reverse,bold gui=reverse,bold
 
 hi DiffAdd ctermfg=Green
 hi DiffDelete ctermfg=Red
